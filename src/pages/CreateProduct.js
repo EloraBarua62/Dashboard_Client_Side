@@ -10,10 +10,10 @@ const CreateProduct = () => {
         const img = event.target.img.value;
         const quantity = event.target.quantity.value;
         const price = event.target.price.value;
-        
-        
-        const url = "http://localhost:5000/add_product";
-        const product = { name , img , quantity , price };
+
+
+        const url = "https://stark-shelf-57934.herokuapp.com/add_product";
+        const product = { name, img, quantity, price };
         fetch(url, {
             method: 'POST',
             headers: {
@@ -22,13 +22,13 @@ const CreateProduct = () => {
             body: JSON.stringify(product)
         })
             .then(res => res.json())
-            .then(data => navigate('/'));
+            .then(data => navigate('/dashboard'));
     }
     return (
         <div className='flex justify-center items-center my-20'>
             <div className='w-1/3 bg-slate-100 '>
                 <div className='w-full bg-slate-900 text-center py-5 '>
-                    <h1 className='uppercase text-white text-xl'>Update Product</h1>
+                    <h1 className='uppercase text-white text-xl'>Create Product</h1>
                 </div>
                 <form onSubmit={handleUpdate} className='mx-auto py-10'>
                     <div className='flex-col justify-center mb-5'>

@@ -3,16 +3,16 @@ import { useNavigate } from 'react-router-dom';
 
 const CreateUser = () => {
     const navigate = useNavigate();
-    
-    
+
+
     const handleUpdate = event => {
         event.preventDefault();
         const name = event.target.name.value;
         const img = event.target.img.value;
         const email = event.target.email.value;
         const role = 'User';
-        const url = "http://localhost:5000/add_user";
-        const user = { name,img,email,role};
+        const url = "https://stark-shelf-57934.herokuapp.com/add_user";
+        const user = { name, img, email, role };
         console.log(user)
         fetch(url, {
             method: 'POST',
@@ -22,8 +22,8 @@ const CreateUser = () => {
             body: JSON.stringify(user)
         })
             .then(res => res.json())
-            .then(data => navigate('/'));
-        
+            .then(data => navigate('/dashboard'));
+
     }
     return (
         <div className='flex justify-center items-center my-20'>
@@ -44,7 +44,7 @@ const CreateUser = () => {
                         <h1 className='text-md text-left pl-12'>Email</h1>
                         <input name='email' type="email" className='border-2 border-orange-500 rounded-md w-4/5 mx-auto' />
                     </div>
-                    
+
                     <button type="submit" className='px-5 py-2 rounded-md bg-orange-500 text-white uppercase' >Submit</button>
 
                 </form>
