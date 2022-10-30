@@ -1,0 +1,38 @@
+[
+    {
+        "name": "user1",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user1@gmail.com",
+        "role": "Admin"
+    },
+    {
+        "name": "user2",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user2@gmail.com",
+        "role": "User"
+    },
+    {
+        "name": "user3",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user3@gmail.com",
+        "role": "User"
+    },
+    {
+        "name": "user4",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user4@gmail.com",
+        "role": "User"
+    },
+    {
+        "name": "user5",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user5@gmail.com",
+        "role": "User"
+    },
+    {
+        "name": "user6",
+        "img": "https://i.ibb.co/94vgXTf/warren-wong-VVEw-JJRRHgk-unsplash.jpg",
+        "email": "user6@gmail.com",
+        "role": "User"
+    }
+]
