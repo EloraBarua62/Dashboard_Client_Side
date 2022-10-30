@@ -19,7 +19,7 @@ const Front = () => {
         <div className='flex justify-center items-center my-20'>
             <div className='w-1/3 bg-slate-100 '>
                 <div className='w-full bg-slate-900 text-center py-5 '>
-                    <h1 className='uppercase text-white text-xl'>Add New User</h1>
+                    <h1 className='uppercase text-white text-xl'>Login</h1>
                 </div>
                 <form onSubmit={handleLogin} className='mx-auto py-10'>
                     <div className='flex-col justify-start mb-5'>
