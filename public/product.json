@@ -1,0 +1,38 @@
+[
+    {
+        "name": "product1",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    },
+    {
+        "name": "product2",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    },
+    {
+        "name": "product3",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    },
+    {
+        "name": "product4",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    },
+    {
+        "name": "product5",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    },
+    {
+        "name": "product6",
+        "img": "https://i01.appmifile.com/webfile/globalimg/0320/TO-B/webupdata/Global-12-Pro-video-new.png?width=398&height=320g",
+        "quantity": 10,
+        "price": 40000
+    }
+]
